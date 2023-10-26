@@ -1,6 +1,7 @@
 package ru.job4j.condition;
 
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class MaxTest {
@@ -14,7 +15,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMax5to4Then5(){
+    void whenMax5to4Then5() {
         int left = 5;
         int right = 4;
         int result = Max.max(left, right);
@@ -23,7 +24,7 @@ class MaxTest {
     }
 
     @Test
-    void whenMax50to50Then50(){
+    void whenMax50to50Then50() {
         int left = 50;
         int right = 50;
         int result = Max.max(left, right);
